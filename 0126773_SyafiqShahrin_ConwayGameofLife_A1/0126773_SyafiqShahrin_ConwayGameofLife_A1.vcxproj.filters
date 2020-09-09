@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{d17c1b7a-7bf5-49d3-8373-1d3ce421d81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Media">
+      <UniqueIdentifier>{66b14fe5-8e24-4f34-b9dc-a1b6010f9ec3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOfLifeScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOfLifeScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="BasicFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapReadFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapReadVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapAddFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapAddVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapUpdateVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapUpdateFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapEraseFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="CellMapEraseVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="DimensionBarShaderFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="DimensionBarShaderVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="TimestepBarShaderFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="TimestepBarShaderVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="uiPlayFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="uiPlayVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="basicColFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="basicColVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Media\testClear3.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testDecreaseDimension2.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testdecreasetime1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testgridicon1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testIncreaseDimension2.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testincreasetimestep1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testPlay1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="..\Media\testtimeicon1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
